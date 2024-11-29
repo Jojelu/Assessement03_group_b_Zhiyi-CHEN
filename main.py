@@ -14,7 +14,7 @@ def calculate_score(x: int, y: int, z: int):
             return "BUST"
         else:
             return sum
-    elif sum - 10 < 21:
+    else:
         return "BUST"
 
 
